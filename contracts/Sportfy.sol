@@ -7,7 +7,7 @@ import "@openzeppelin/contracts@4.5.0/access/Ownable.sol";
 import "@openzeppelin/contracts@4.5.0/utils/Counters.sol";
 
 
-contract SportyFy is ERC721, ERC721Enumerable, Ownable {
+contract Sportyfy is ERC721, ERC721Enumerable, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
